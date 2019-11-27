@@ -21,7 +21,7 @@
 # Project information
 site_name: Material for MkDocs
 site_description: A Material Design theme for MkDocs
-site_author: Martin Donath
+site_author: Praveen Anil
 site_url: https://PraveenAnil.github.io/mkdocs-material/
 
 # Repository
@@ -30,7 +30,7 @@ repo_url: https://github.com/PraveenAnil/mkdocs-material
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2016 - 2019 Martin Donath'
+copyright: 'Copyright &copy; 2016 - 2019 Praveen Anil'
 
 # Configuration
 theme:
@@ -68,8 +68,6 @@ plugins:
 # Customization
 extra:
   social:
-    - type: globe
-      link: http://struct.cc
     - type: github-alt
       link: https://github.com/PraveenAnil
     - type: twitter
