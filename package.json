@@ -15,9 +15,9 @@
     "Topic :: Documentation",
     "Topic :: Text Processing :: Markup :: HTML"
   ],
-  "homepage": "https://squidfunk.github.io/mkdocs-material/",
+  "homepage": "https://praveenanil.github.io/mkdocs-material/",
   "bugs": {
-    "url": "https://github.com/squidfunk/mkdocs-material/issues",
+    "url": "https://github.com/praveenanil/mkdocs-material/issues",
     "email": "martin.donath@squidfunk.com"
   },
   "license": "MIT",
@@ -28,7 +28,7 @@
   "contributors": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/squidfunk/mkdocs-material.git"
+    "url": "https://github.com/praveenanil/mkdocs-material.git"
   },
   "scripts": {
     "build": "make clean build",
