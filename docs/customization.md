@@ -133,13 +133,7 @@ which are defined inside the Material theme and wrap specific features. To
 override a template block, create a `main.html` inside the theme directory and
 define the block, e.g.:
 
-``` jinja
-{% extends "base.html" %}
 
-{% block htmltitle %}
-  <title>Lorem ipsum dolor sit amet</title>
-{% endblock %}
-```
 
 The Material theme provides the following template blocks:
 
