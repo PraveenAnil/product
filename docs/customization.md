@@ -133,8 +133,6 @@ which are defined inside the Material theme and wrap specific features. To
 override a template block, create a `main.html` inside the theme directory and
 define the block, e.g.:
 
-
-
 The Material theme provides the following template blocks:
 
 | Block name   | Wrapped contents                                |
