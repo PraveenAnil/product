@@ -1,4 +1,4 @@
-# Material <small>for MkDocs</small>
+# Praveen <small>for MkDocs</small>
 
 ## Create beautiful project documentation
 
