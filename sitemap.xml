@@ -1,77 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/</loc>
+     <loc>https://PraveenAnil.github.io/product/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/getting-started/</loc>
+     <loc>https://PraveenAnil.github.io/product/getting-started/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/admonition/</loc>
+     <loc>https://PraveenAnil.github.io/product/extensions/admonition/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/codehilite/</loc>
+     <loc>https://PraveenAnil.github.io/product/extensions/codehilite/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/footnotes/</loc>
+     <loc>https://PraveenAnil.github.io/product/extensions/footnotes/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/metadata/</loc>
+     <loc>https://PraveenAnil.github.io/product/extensions/footnotes/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/permalinks/</loc>
+     <loc>https://PraveenAnil.github.io/product/customization/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/extensions/pymdown/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/specimen/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/customization/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/compliance/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/release-notes/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/authors-notes/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/contributing/</loc>
-     <lastmod>2019-11-30</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://PraveenAnil.github.io/mkdocs-material/license/</loc>
+     <loc>https://PraveenAnil.github.io/product/compliance/</loc>
      <lastmod>2019-11-30</lastmod>
      <changefreq>daily</changefreq>
     </url>
