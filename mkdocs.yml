@@ -115,8 +115,8 @@ nav:
     - Admonition: extensions/admonition.md
     - CodeHilite: extensions/codehilite.md
     - Footnotes: extensions/footnotes.md
-  - Build Lab: specimen.md
-    - Footnotes: extensions/footnotes.md
+  - Build Lab:
+    - Footnotes: extensions/footnotes.md  
   - Customization: customization.md
   - Compliance with GDPR: compliance.md
 
