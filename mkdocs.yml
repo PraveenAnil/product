@@ -19,14 +19,14 @@
 # IN THE SOFTWARE.
 
 # Project information
-site_name: Material for MkDocs
-site_description: A Material Design theme for MkDocs
+site_name: Product
+site_description: A Document to get you started with product
 site_author: Praveen Anil
-site_url: https://PraveenAnil.github.io/mkdocs-material/
+site_url: https://PraveenAnil.github.io/product/
 
 # Repository
 repo_name: PraveenAnil/mkdocs-material
-repo_url: https://github.com/PraveenAnil/mkdocs-material
+repo_url: https://github.com/PraveenAnil/product
 edit_uri: ""
 
 # Copyright
@@ -42,7 +42,7 @@ theme:
     - 404.html
 
   # Don't include MkDocs' JavaScript
-  include_search_page: false
+  include_search_page: true
   search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
