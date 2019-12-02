@@ -57,7 +57,8 @@ theme:
     code: Roboto Mono
   favicon: assets/images/cloudlabs_white.png
   logo:
-    icon: "\uE80C"
+    icon: "assets/images/cloudlabs_white.png"
+#    icon: "\uE80C"
 
 # Plugins
 plugins:
