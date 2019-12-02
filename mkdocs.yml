@@ -50,7 +50,7 @@ theme:
   feature:
     tabs: true
   palette:
-    primary: deep purple
+    primary: teal
     accent: indigo
   font:
     text: Roboto
