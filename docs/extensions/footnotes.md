@@ -1,84 +1,34 @@
-# Footnotes
+# Security and Permissions
 
-[Footnotes][1] is another extension included in the standard Markdown library.
-As the name says, it adds the ability to add footnotes to your documentation.
+In this section, you will understand how to configure a Lab environment in a most secure way.
 
-  [1]: https://python-markdown.github.io/extensions/footnotes/
+First you will setup a template with the minimal permissions. Multiple template permissions can be added for each user.
+Then you will add a usage policy to set alerts if the user goes above the allowed values for any resource.
 
-## Installation
+Next, you will see how to configure ODL in different ways. You can configure labs to not fetch any details about the user as well.
 
-Add the following lines to your `mkdocs.yml`:
 
-``` yaml
-markdown_extensions:
-  - footnotes
-```
+## Restrict/Define AAD Object Actions
 
-## Usage
+There are multiple ways to restrict what all actions a user or an AD SPN ( Service Principal ) can perform in Azure using CloudLabs
 
-The markup for footnotes is similar to the standard Markdown markup for links.
-A reference is inserted in the text, which can then be defined at any point in
-the document.
+### Assign a Built-in Role to AAD Objects (User/SPN)
 
-### Inserting the reference
+AAD Objects can be assigned Reader/Contributor/Owner/Storage Blob Data Owner role at Resource Group or Subscription scopes. 
 
-The footnote reference is enclosed in square brackets and starts with a caret,
-followed by an arbitrary label which may contain numeric identifiers [1, 2, 3,
-...] or names [Granovetter et al. 1998]. The rendered references are always
-consecutive superscripted numbers.
+  - **Reader** can view and access Azure resources
+  - **Contributor** can create and manage all types of Azure resources but can't grant access to others.
+  - **Owner** can create and manage all types of Azure resources as well as grant access to others.
+  - **Storage Blob Data Owner** has full access to Azure Storage blob containers and data, including assigning POSIX access control
+  
+ > Note: We prefer providing only Reader permission for the user by default. Actions that can be performed can be mentioned in the Custom Role and assigned to the User/SPN
 
-Example:
+### Assign a Custom Role to AAD Objects ( User/SPN )
 
-``` markdown
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
-```
+If the built-in roles in CloudLabs don't meet the specific needs for the workshops or you want to provide only specific actions for each user, you can create your own custom roles. 
 
-Result:
+Just like built-in roles, you can assign custom roles to users and service principals on top of the built-in role that is defined at subscription, and resource group scopes.
 
-Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit.[^2]
+Custom Role definition is given here: https://docs.microsoft.com/en-us/azure/role-based-access-control/custom-roles#custom-role-example 
 
-### Inserting the content
-
-The footnote content is also declared with a label, which must match the label
-used for the footnote reference. It can be inserted at an arbitrary position in
-the document and is always rendered at the bottom of the page. Furthermore, a
-backlink is automatically added to the footnote reference.
-
-#### on a single line
-
-Short statements can be written on the same line.
-
-Example:
-
-``` markdown
-[^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-```
-
-Result:
-
-<a href="#fn:1">Jump to footnote at the bottom of the page</a>
-
-  [^1]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
-#### on multiple lines
-
-Paragraphs should be written on the next line. As with all Markdown blocks, the
-content must be indented by four spaces.
-
-Example:
-
-``` markdown
-[^2]:
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
-```
-
-Result:
-
-  [^2]:
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-      nulla. Curabitur feugiat, tortor non consequat finibus, justo purus
-      auctor massa, nec semper lorem quam in massa.
-
-<a href="#fn:2">Jump to footnote at the bottom of the page</a>
+The custom roles will be saved as a Json File and uploaded to a public storage solution. Then this URL is provided while configuring the Custom Role permission in CloudLabs.
